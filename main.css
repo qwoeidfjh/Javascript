@@ -1,0 +1,45 @@
+body{
+    background-image: url(" https://w.forfun.com/fetch/6f/6fb4f5609433462542ef2ed933cfdcde.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main  .div1{
+    margin: 10px;
+    
+}
+.div1 > h3{
+    text-align: center;
+}
+img{
+    border: 2px solid white;
+   
+}
+img:hover{
+    filter: blur(1.9px);
+}
+.div1 > div{
+    position: relative;
+}
+.content{
+    height: 304px;
+    width: 304px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: all linear 0.5s;
+}
+.content:hover{
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}

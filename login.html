@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            color: white;
+        }
+        body{
+            background: linear-gradient(to right,rgb(20, 159, 251),rgb(196, 85, 227));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            margin-top: 3%;
+        }
+        .container{
+            height: 650px;
+            width: 500px;
+            background-color: rgba(0, 0, 0, 0.301);
+            border-radius: 50px;
+        }
+        h1{
+            padding: 30px;
+        }
+        .name,.pass,.cnrf{
+            width: 300px;
+            margin: 30px auto;
+        }
+        input{
+            color: black;
+            height: 45px;
+            width: 300px;
+            padding: 10px;
+            font-size: 20px;
+        }
+        label{
+            font-size: 20px;
+        }
+        .name>div, .pass>div, .cnrf>div{
+            padding-bottom: 10px;
+        }
+        .button{
+            width: 500px;
+            
+        }
+        .button button{
+            background-color: rgb(236, 10, 252);
+            font-size: 16px;
+            font-weight: 600;
+            color: black;
+            margin-top: 10%;
+            margin-left: 40%;
+            cursor: pointer;
+            width: 120px;
+            height: 35px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <center><h1>Login</h1></center>
+                <div class="name">
+                    <div>
+                        <label
+                            for="username">Username</label>
+                    </div>
+                        <input type="text" class="username" placeholder="username">
+                </div>
+                <div class="pass"><div><label
+                            for="password">Password</label></div><input
+                        type="password" class="password" placeholder="password"
+                        id></div>
+                <div class="button"><button class="login" type="button">Login</button></div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

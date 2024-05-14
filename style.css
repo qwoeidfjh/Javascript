@@ -1,0 +1,26 @@
+body{
+    background: url("https://e0.pxfuel.com/wallpapers/918/118/desktop-wallpaper-headphones-background-skull-headphones-girls-headphones-and-sony-headphones-black-heads.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .login{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1000px;
+    gap: 10px;
+    font-size: 25px;
+  }
+  .login a{
+    text-decoration: none;
+    color:white;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .wel{
+    font-size: 60px;
+    margin: 70px;
+    padding-top: 30px;
+  }
